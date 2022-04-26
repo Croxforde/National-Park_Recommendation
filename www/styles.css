@@ -1,0 +1,172 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+.outer {
+  position: fixed;
+  top: 41px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    float: left;
+    height: 60px;
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.navbar-default {
+  background-color: #523623;
+  border-color: #523623;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #523623;
+  color : #ffffff;
+  font-weight: normal;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #8c674f;
+  color : #ffffff;
+  font-weight: normal;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #8c674f;
+  color : #ffffff;
+  font-weight: normal;
+}
+
+.irs-with-grid .irs-grid{
+  -webkit-text-fill-color: #ffffff;
+}
+    
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+body{
+  background-color: #8c674f;
+}
+
+h3 { 
+  font-weight: 500;
+  font-size: 30px;
+  }
+
+h2{
+  font-weight: 500;
+  font-size: 35px;
+  font-style: oblique;
+}
+
+h4, h5{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.well{
+  height: 350px;
+  color: #ffffff;
+  overflow-y: scroll;
+}
+
+.form-control{
+  background-color: #ffffff;
+}
+
+.selectize-input.full{
+  background-color: #ffffff;
+}
+
+/* If not using map tiles, show a white background */
+.leaflet-container {
+  background-color: white !important;
+}
+
+.leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale {
+    font-size: 1px;
+}
+
+.irs--shiny .irs-from, .irs--shiny .irs-to, .irs--shiny .irs-single {
+  color: black;
+}
+
+.container {
+  width: 250;
+  height: 250;
+  padding: 10px 10px 10px 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  right: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 266px;
+  height: 0;
+  transition: .5s ease;
+  opacity: 0.9;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.container.text {
+  white-space: nowrap; 
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  overflow: scroll;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay.text{
+  white-space: nowrap; 
+  background-color: #ffffff;
+  color: #8c674f;
+  font-size: 20px;
+  position: absolute;
+  overflow: scroll;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
